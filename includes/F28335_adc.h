@@ -26,8 +26,8 @@
 #define ADCRESULT_14    (*((volatile UInt16 *)0x0B0E))  // ADC Conversion Result Register 14 - No wait and Right Justified for Fast Conversion Result
 #define ADCRESULT_15    (*((volatile UInt16 *)0x0B0F))  // ADC Conversion Result Register 15 - No wait and Right Justified for Fast Conversion Result
 #define ADCTRL3         (*((volatile UInt16 *)0x7118))  // ADC control Register 3
-#define ADCST           (*((volatile UInt16 *)0x7119))  // ADC control Register 1
-#define ADCREFSEL       (*((volatile UInt16 *)0x711C))  // ADC control Register 1
-#define ADCOFFTRIM      (*((volatile UInt16 *)0x711D))  // ADC control Register 1
+#define ADCST           (*((volatile UInt16 *)0x7119))  // ADC Status Register
+#define ADCREFSEL       (*((volatile UInt16 *)0x711C))  // ADC Refernce Select Register
+#define ADCOFFTRIM      (*((volatile UInt16 *)0x711D))  // ADC Offset trim Register
 
 #endif
